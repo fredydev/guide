@@ -2,9 +2,15 @@
 title: Iterate with JavaScript For Loops
 ---
 ## Iterate with JavaScript For Loops
+### Solution
+In the loop i variable must be initialized to 1, and its last value must be equal to 5.
+```
+var myArray=[];
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+for (var i = 1; i <= 5; i++) {
+  myArray.push(i);
+}
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
